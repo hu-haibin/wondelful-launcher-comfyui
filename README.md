@@ -1,4 +1,7 @@
-﻿<div align="center">
+﻿🌐 **English** | [简体中文](README_CN.md)
+
+
+<div align="center">
 
 # ModelFinder
 
@@ -348,6 +351,7 @@ ModelFinder is not officially affiliated with ComfyUI. ComfyUI is an independent
 
 ---
 
+
 <div align="center">
 
 **ModelFinder** - Turn ComfyUI from setup friction into out-of-box productivity.
@@ -355,3 +359,5 @@ ModelFinder is not officially affiliated with ComfyUI. ComfyUI is an independent
 Made with ❤️ for the AI Art Community
 
 </div>
+
+
