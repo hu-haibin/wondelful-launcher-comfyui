@@ -83,12 +83,12 @@ When you load a workflow that needs plugins you don't have, the **Install Missin
 
 ## Release Tracks
 
-| Track | Access | For |
-|-------|--------|-----|
-| **Stable Community Build** | Free | Most users — the recommended public build |
-| **Pro / Beta Early Access** | Paid | Power users who want batch analysis, accelerated downloads, and early access to new features |
+| Track | For |
+|-------|-----|
+| **Stable** | Most users — the recommended public build |
+| **Beta** | Users who want early access to new features and accept occasional rough edges |
 
-Beta builds ship from the same repository. They may include unfinished features or temporary regressions before promotion to stable.
+All features are currently free. Beta builds ship from the same repository and may include unfinished features or temporary regressions before promotion to stable.
 
 ---
 
