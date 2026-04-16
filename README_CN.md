@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# ModelFinder
+# ComfyUI 安装 下载教程
 
 ### 一款 Windows 上的 ComfyUI 启动器，让你从工作流到出图，更快一步。
 
