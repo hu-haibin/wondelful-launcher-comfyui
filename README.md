@@ -3,7 +3,7 @@
 
 <div align="center">
 
-# ModelFinder
+# ComfyUI Install Windows Download
 
 ### A Windows launcher for ComfyUI that gets you from workflow to output, faster.
 
