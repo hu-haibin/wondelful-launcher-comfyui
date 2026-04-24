@@ -1,6 +1,5 @@
 🌐 **English** | [简体中文](README_CN.md)
 
-
 <div align="center">
 
 # ComfyUI Install Windows Download
@@ -11,7 +10,7 @@
 [![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhu-haibin%2FModelFinder-Releases%2Fmain%2Fstats%2Fdownloads.json&query=%24.cumulative_downloads&style=for-the-badge&logo=github&label=Downloads)](https://github.com/hu-haibin/ModelFinder-Releases/releases)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows)](https://github.com/hu-haibin/ModelFinder-Releases/releases/latest)
 
-[**Download Stable**](https://github.com/hu-haibin/ModelFinder-Releases/releases/latest) · [**Beta / Early Access**](https://github.com/hu-haibin/ModelFinder-Releases/releases) · [**Release Notes**](https://github.com/hu-haibin/ModelFinder-Releases/releases) · [**Report Issues**](https://github.com/hu-haibin/ModelFinder-Releases/issues)
+[**Download**](https://github.com/hu-haibin/ModelFinder-Releases/releases/latest) · [**All Releases**](https://github.com/hu-haibin/ModelFinder-Releases/releases) · [**Report Issues**](https://github.com/hu-haibin/ModelFinder-Releases/issues)
 
 </div>
 
@@ -25,6 +24,21 @@ ModelFinder is a **ComfyUI launcher and manager** that puts workflow analysis, m
 
 ---
 
+## Features at a Glance
+
+| | Feature | What it does |
+|:---:|---------|-------------|
+| 🚀 | **One-Click Launch** | Start/stop ComfyUI, built-in browser workspace, real-time terminal logs |
+| 📦 | **Environment Manager** | Deploy ComfyUI, manage multiple installations, switch PyTorch/CUDA versions |
+| 🔍 | **Model Finder** | Analyze workflows, auto-match missing models, batch download from HuggingFace / ModelScope / Civitai |
+| 🧩 | **Plugin Manager** | Install custom nodes from Git URL, manage dependencies, bulk enable/disable |
+| 🗂️ | **Model Library** | Browse local models by category, cross-package duplicate detection |
+| 🤖 | **AI Assistant** | Chat-based log diagnosis, automated repair with approval, one-click rollback |
+| ⬇️ | **Download Manager** | Multi-task downloads with pause/resume, Aria2 acceleration support |
+| 🎨 | **Personalization** | Dark/Light theme, multiple color schemes, English/Chinese, Fluent Design |
+
+---
+
 ## Getting Started
 
 ### First Time
@@ -34,7 +48,8 @@ ModelFinder is a **ComfyUI launcher and manager** that puts workflow analysis, m
 3. Or skip deployment and point ModelFinder at your existing ComfyUI portable package
 4. **Already using ComfyUI Desktop?** Just add your `Documents\ComfyUI` folder — ModelFinder auto-detects the Desktop installation
 
-No Python or .NET installation required. Everything is bundled.
+> [!TIP]
+> No Python or .NET installation required. Everything is bundled.
 
 ### Daily Use
 
@@ -44,9 +59,10 @@ That's it for basic use. The rest of ModelFinder is there when you need it.
 
 ---
 
-## What You Can Do
+## Feature Details
 
-### Home — Launch and Monitor
+<details>
+<summary><b>🚀 Home — Launch and Monitor</b></summary>
 
 Your starting point. A capsule-shaped control button lets you start/stop ComfyUI with one click. When running, a built-in browser workspace opens ComfyUI's Web UI right inside the launcher — no need to switch windows.
 
@@ -56,7 +72,10 @@ The workspace also detects issues with the current workflow — if custom nodes 
 
 Hardware info (OS, CPU, Memory, GPU, VRAM, Motherboard) is displayed at a glance. Launch parameters — port, GPU mode (Auto / RTX fp16 / CPU), and custom arguments — are configurable from the gear button.
 
-### Environments — Deploy and Manage
+</details>
+
+<details>
+<summary><b>📦 Environments — Deploy and Manage</b></summary>
 
 **Deploy** a fresh ComfyUI installation with version selection, GPU acceleration options (NVIDIA CUDA / AMD ROCm), and optional preinstalled components.
 
@@ -64,7 +83,10 @@ Hardware info (OS, CPU, Memory, GPU, VRAM, Motherboard) is displayed at a glance
 
 A full **pip dependency table** lets you search, install, upgrade, switch versions, or batch-uninstall Python packages. You can also drag-and-drop `.txt` (requirements) or `.whl` (wheel) files to install them directly. Pip cache cleanup and pip self-upgrade are one click away.
 
-### Workflows — Model Finder and Downloader
+</details>
+
+<details>
+<summary><b>🔍 Workflows — Model Finder and Downloader</b></summary>
 
 > Requires sign-in to a ModelFinder account.
 
@@ -72,25 +94,37 @@ Drop in a workflow file (JSON or PNG), and ModelFinder scans your local models, 
 
 Accept matches and download all missing models in one go — or copy the list to your clipboard for manual searching. Supports batch analysis across multiple workflow files or entire folders.
 
-### Plugins — Custom Nodes Installer and Manager
+</details>
+
+<details>
+<summary><b>🧩 Plugins — Custom Nodes Installer and Manager</b></summary>
 
 Browse all installed custom nodes with status, Git info, and dependency indicators. Toggle plugins on/off, install Python dependencies (with pip mirror selection: PyPI / Tsinghua / Aliyun / Tencent / Douban), open GitHub repos, or delete plugins entirely.
 
 Install new custom nodes from any Git URL — ModelFinder clones the repository and auto-installs its Python dependencies. Bulk enable/disable and bulk dependency installation are available for managing large plugin sets.
 
-### Models — Model Library and Download Manager
+</details>
+
+<details>
+<summary><b>🗂️ Models — Model Library and Download Manager</b></summary>
 
 **Model Library** gives you a visual browser for all your local model files — checkpoints, LoRAs, VAEs, ControlNets, CLIP, and more — with category filtering and search. Open any model's folder or delete unused ones directly. Switch to **All Packages** mode to see models across every ComfyUI installation, with duplicate detection and reclaimable space estimates.
 
 **Download Manager** shows all active and completed downloads in one place. Active downloads show live progress, speed, and ETA with pause/resume/cancel controls. Completed downloads can be opened or cleared from the list.
 
-### AI Assistant
+</details>
+
+<details>
+<summary><b>🤖 AI Assistant</b></summary>
 
 A global chat panel accessible from the title bar. When something goes wrong, the AI can analyze your logs, suggest repair commands, execute them with your approval, and verify the fix. Suggested prompts help you get started: diagnose failures, check dependencies, or summarize recovery steps.
 
 AI features are managed server-side — sign in to your account to use them.
 
-### Settings
+</details>
+
+<details>
+<summary><b>⚙️ Settings</b></summary>
 
 - **Account**: Sign in/out, view subscription plan, credit balance, and billing
 - **General**: Language (English / Chinese / System), close behavior, shared model directory with junction linking
@@ -98,14 +132,7 @@ AI features are managed server-side — sign in to your account to use them.
 - **AI**: Proxy configuration, raw log upload preference
 - **Advanced**: System dependency manager (Git, 7-Zip, VC Redist), log viewer, cache cleanup, update manager
 
----
-
-## Personalization
-
-- **Language**: English / Simplified Chinese / Follow system — instant switch, no restart
-- **Theme**: Dark / Light with synchronized ComfyUI theme
-- **Color schemes**: Multiple accent palettes
-- Built with **Windows Fluent Design** for a modern, native feel
+</details>
 
 ---
 
@@ -114,9 +141,7 @@ AI features are managed server-side — sign in to your account to use them.
 | Track | For |
 |-------|-----|
 | **Stable** | Most users — the recommended public build |
-| **Beta** | Users who want early access to new features and accept occasional rough edges |
-
-Beta builds ship from the same repository and may include unfinished features or temporary regressions before promotion to stable.
+| **Beta** | Early access to new features, may include occasional rough edges |
 
 ---
 
@@ -177,17 +202,18 @@ ModelFinder automatically migrates your config from `%AppData%/ComfyLauncher`. B
 
 ---
 
-## Feedback
+## Feedback and Community
 
-- **Bug reports / feature requests**: [Issues](https://github.com/hu-haibin/ModelFinder-Releases/issues)
-- If ModelFinder helps you, a star is appreciated
+- **Bug reports / Feature requests**: [GitHub Issues](https://github.com/hu-haibin/ModelFinder-Releases/issues)
+- If ModelFinder helps your workflow, a star on this repo is appreciated
 
 ---
 
-## License
+## About
 
-ModelFinder is closed-source software. This repository provides compiled release binaries only.
-ModelFinder is not affiliated with ComfyUI. ComfyUI is an independent open-source project.
+ModelFinder is a third-party tool built for the [ComfyUI](https://github.com/comfyanonymous/ComfyUI) ecosystem. It is closed-source; this repository hosts compiled release binaries and issue tracking.
+
+ComfyUI is an independent open-source project — ModelFinder is developed to complement it, not replace any of its functionality.
 
 ---
 
@@ -195,6 +221,6 @@ ModelFinder is not affiliated with ComfyUI. ComfyUI is an independent open-sourc
 
 **ModelFinder** — From workflow to output, without the setup friction.
 
-Made with ❤️ for the AI Art Community
+Built for the ComfyUI community
 
 </div>
