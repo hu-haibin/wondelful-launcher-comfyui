@@ -23,10 +23,6 @@ Every new ComfyUI workflow can mean missing models, missing plugins, broken depe
 
 ModelFinder puts **workflow analysis, resource downloads, environment management, and launching** in one place — so you spend time generating, not debugging setup.
 
-<div align="center">
-<img src="screenshots/home.png" width="80%" alt="Home — Launch and monitor ComfyUI with built-in terminal">
-</div>
-
 ---
 
 ## Getting Started
@@ -56,29 +52,11 @@ Your starting point. A full-size terminal console shows ComfyUI logs in real tim
 
 When something goes wrong, the **AI Diagnosis** feature can analyze your logs, suggest repair commands, execute them with your approval, and verify the fix — with rollback if needed.
 
-<details>
-<summary>Screenshots</summary>
-
-| AI Diagnosis | Hardware Monitor |
-|:---:|:---:|
-| <img src="screenshots/ai-diagnosis.png" width="400"> | <img src="screenshots/hardware-monitor.png" width="400"> |
-
-</details>
-
 ### Environments — Deploy and Manage Packages
 
 **Deploy** a fresh ComfyUI installation with version selection, GPU acceleration options (NVIDIA CUDA / AMD ROCm), and optional preinstalled components (ComfyUI-Manager, translation packs, popular nodes). Visual step-by-step progress with failure recovery.
 
 **Packages** lets you manage multiple ComfyUI installations side by side — including **ComfyUI Desktop** installations. See Python/PyTorch/ComfyUI versions and disk usage at a glance. Switch PyTorch/CUDA versions visually, upgrade or rollback ComfyUI core, export/import pip environments, and clean up pip cache.
-
-<details>
-<summary>Screenshots</summary>
-
-| Deployment Wizard | Package Manager | PyTorch Manager |
-|:---:|:---:|:---:|
-| <img src="screenshots/deployment.png" width="270"> | <img src="screenshots/package-manager.png" width="270"> | <img src="screenshots/pytorch-manager.png" width="270"> |
-
-</details>
 
 ### Workflows — Batch Tasks and Diagnosis
 
@@ -86,26 +64,11 @@ When something goes wrong, the **AI Diagnosis** feature can analyze your logs, s
 
 **Workflow Diagnosis** checks your workflows for issues before you run them.
 
-<details>
-<summary>Screenshots</summary>
-
-| Batch Queue | Dependency Analysis |
-|:---:|:---:|
-| <img src="screenshots/batch-queue.png" width="400"> | <img src="screenshots/dependency-analysis.png" width="400"> |
-
-</details>
-
 ### Plugins — Manage and Install
 
 Browse all installed custom nodes with Git info, size, and search. Switch plugin versions by commit, rollback, or manage Python dependencies.
 
 When you load a workflow that needs plugins you don't have, the **Install Missing Plugins** tab detects them and installs with one click (Git clone + pip dependencies).
-
-<details>
-<summary>Screenshot</summary>
-
-<img src="screenshots/plugin-management.png" width="80%">
-</details>
 
 ### Models — Library, Finder, and Downloads
 
@@ -114,15 +77,6 @@ When you load a workflow that needs plugins you don't have, the **Install Missin
 **Model Finder** is the core differentiator. Drop in a workflow (JSON or PNG), and it scans your local models, identifies what's missing, and automatically matches download sources from a cloud catalog across HuggingFace, ModelScope, and Civitai. Accept matches and download all in one go. Supports batch analysis across multiple files or entire folders.
 
 **Downloads** is a unified download manager with live progress, pause/resume, and batch cleanup.
-
-<details>
-<summary>Screenshots</summary>
-
-| Model Finder | Model Library | Download Center |
-|:---:|:---:|:---:|
-| <img src="screenshots/model-finder.png" width="270"> | <img src="screenshots/model-management.png" width="270"> | <img src="screenshots/download-center.png" width="270"> |
-
-</details>
 
 ---
 
@@ -134,15 +88,6 @@ When you load a workflow that needs plugins you don't have, the **Install Missin
 - **UI density**: Comfortable / Compact
 - **Reduced motion**: Disable animations on low-end devices
 - Built with **Windows Fluent Design** for a modern, native feel
-
-<details>
-<summary>Screenshots</summary>
-
-| Dark Theme (Chinese) | Light Theme (English) | Settings |
-|:---:|:---:|:---:|
-| <img src="screenshots/home.png" width="270"> | <img src="screenshots/light-theme-english.png" width="270"> | <img src="screenshots/settings.png" width="270"> |
-
-</details>
 
 ---
 
